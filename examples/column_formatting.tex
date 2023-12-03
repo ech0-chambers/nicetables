@@ -1,0 +1,18 @@
+\documentclass[border = 1mm]{standalone}
+
+\usepackage{../nicetables}
+\begin{document}
+
+\begin{nicetable}[
+    header row style = {\scshape},
+    cell style = {\color{red!50!black}, \ensuremath, \texttt}
+]{|l|c|l|}
+Name           & Age & City           \\
+John Smith     & 28  & New York       \\
+Alice Johnson  & 35  & Los Angeles    \\
+Bob Anderson   & 22  & Chicago        \\
+Eva Williams   & 30  & San Francisco  \\
+David Brown    & 25  & Miami          
+\end{nicetable}
+
+\end{document}

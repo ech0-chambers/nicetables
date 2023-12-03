@@ -1,0 +1,22 @@
+\documentclass[border = 1mm]{standalone}
+
+\usepackage{../nicetables}
+\input{rpd.tex}
+\begin{document}
+
+\begin{nicetable}[
+    header row color = Blue,
+    header row style = {\color{BackgroundColour}\bfseries},
+    row colors = \rowcolors{2}{Surface5}{BackgroundColour},
+    separator color = ForegroundColour,
+    cell style = \color{ForegroundColour}
+]{|l|c|l|}
+Name           & Age & City           \\
+John Smith     & 28  & New York       \\
+Alice Johnson  & 35  & Los Angeles    \\
+Bob Anderson   & 22  & Chicago        \\
+Eva Williams   & 30  & San Francisco  \\
+David Brown    & 25  & Miami          
+\end{nicetable}
+
+\end{document}
